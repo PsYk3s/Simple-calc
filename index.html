@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calc</title>
+</head>
+
+<body>
+    <div id="outer-box">
+        <div id="display-box">
+            <div id="formula">-</div>
+            <div id="solution">0</div>
+        </div>
+        <div id="labels">
+            <label for="trip-start" id="birth-date">Birth Date</label>
+            <label for="trip-end" id="curr-date">Query Date</label>
+        </div>
+
+        <div id="operator-buttons-box">
+            <input type="date" id="start" name="trip-start" value="2000-01-01" />
+            <input type="date" id="end" name="trip-end" value="" />
+            <button class="buttons equals" id="result">=</button>
+            <button class="buttons clear" id="clear">Clear</button>
+        </div>
+    </div>
+</body>
+
+</html>
